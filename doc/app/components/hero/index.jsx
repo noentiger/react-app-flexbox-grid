@@ -14,7 +14,7 @@ const Hero = () => {
         <code>React(CSS-Modules(flexboxgrid.css));</code>
       </Row>
       <Row center="xs">
-        <Button url="https://github.com/roylee0704/react-app-flexbox-grid">Github</Button>
+        <Button url="https://github.com/noentiger/react-app-flexbox-grid">Github</Button>
       </Row>
     </header>
   );

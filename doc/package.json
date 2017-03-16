@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roylee0704/react-app-flexbox-grid.git"
+    "url": "git+https://github.com/noentiger/react-app-flexbox-grid.git"
   },
-  "author": "roylee0704 <roylee0704@gmail.com> (https://twitter.com/roylee0704)",
+  "author": "noentiger <noentiger@gmail.com> (https://twitter.com/noentiger)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roylee0704/react-app-flexbox-grid/issues"
+    "url": "https://github.com/noentiger/react-app-flexbox-grid/issues"
   },
   "dependencies": {
     "codemirror": "^5.8.0",

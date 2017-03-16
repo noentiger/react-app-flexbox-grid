@@ -1,5 +1,5 @@
 // Type definitions for react-app-flexbox-grid v0.10.2
-// Project: https://github.com/roylee0704/react-app-flexbox-grid
+// Project: https://github.com/noentiger/react-app-flexbox-grid
 // Definitions by: Ruslan Ibragimov <https://github.com/IRus>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
