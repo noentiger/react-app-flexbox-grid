@@ -3,6 +3,13 @@
 [![Build Status](https://travis-ci.org/noentiger/react-app-flexbox-grid.svg)](https://travis-ci.org/noentiger/react-app-flexbox-grid)
 [![NPM Status](http://img.shields.io/npm/dm/react-app-flexbox-grid.svg?style=flat)](https://www.npmjs.org/package/react-app-flexbox-grid)
 
+Intention
+---------
+
+To make [react-flexbox-grid](https://github.com/roylee0704/react-flexbox-grid) work seamless with e.g. [Facebook's create-react-app](https://github.com/facebookincubator/create-react-app)
+
+Info
+----
 
 `react-app-flexbox-grid` is a set of React components that implement [flexboxgrid.css](https://goo.gl/imrHBZ). It even has an optional support for [CSS Modules](https://github.com/webpack-contrib/css-loader#css-modules) with some extra configuration.
 
@@ -15,7 +22,7 @@ Setup
 `react-app-flexbox-grid` can be installed as an [npm package](https://www.npmjs.com/package/react-app-flexbox-grid):
 
 ```
-npm install --save react-app-flexbox-grid
+npm i -S react-app-flexbox-grid
 ```
 
 ### Minimal configuration
@@ -145,7 +152,7 @@ MyComponent.propTypes = Object.assign({
 
 ## Credits
 
-- [https://github.com/noentiger/react-flexbox-grid]() for the original react components
+- [https://github.com/roylee0704/react-flexbox-grid]() for the original react components
 
 License
 -------
