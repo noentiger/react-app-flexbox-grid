@@ -145,7 +145,7 @@ MyComponent.propTypes = Object.assign({
 
 ## Credits
 
-- [https://github.com/noentiger/react-app-flexbox-grid]() for the original react components
+- [https://github.com/roylee0704/react-flexbox-grid]() for the original react components
 
 License
 -------
