@@ -2,7 +2,7 @@
   "name": "react-app-flexbox-grid",
   "description": "A set of React components implementing flexboxgrid with the power of CSS Modules",
   "homepage": "https://github.com/noentiger/react-app-flexbox-grid",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "main": "lib/index.js",
   "author": {
     "name": "Roy Lee",
