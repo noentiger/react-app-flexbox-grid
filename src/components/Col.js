@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import createProps from '../createProps';
 import getClass from '../classNames';
 import { ColumnSizeType, ViewportSizeType } from '../types';
@@ -8,10 +9,12 @@ const propTypes = {
   sm: ColumnSizeType,
   md: ColumnSizeType,
   lg: ColumnSizeType,
+  xl: ColumnSizeType,
   xsOffset: PropTypes.number,
   smOffset: PropTypes.number,
   mdOffset: PropTypes.number,
   lgOffset: PropTypes.number,
+  xlOffset: PropTypes.number,
   first: ViewportSizeType,
   last: ViewportSizeType,
   className: PropTypes.string,
@@ -24,10 +27,12 @@ const classMap = {
   sm: 'col-sm',
   md: 'col-md',
   lg: 'col-lg',
+  xl: 'col-xl',
   xsOffset: 'col-xs-offset',
   smOffset: 'col-sm-offset',
   mdOffset: 'col-md-offset',
-  lgOffset: 'col-lg-offset'
+  lgOffset: 'col-lg-offset',
+  xlOffset: 'col-xl-offset'
 };
 
 function isInteger(value) {

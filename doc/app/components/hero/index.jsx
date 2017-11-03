@@ -8,13 +8,13 @@ const Hero = () => {
   return (
     <header className={style.hero}>
       <Row center="xs">
-        <h1 className={style.headline}>react-app-flexbox-grid</h1>
+        <h1 className={style.headline}>React-FlexBox-Grid</h1>
       </Row>
       <Row className={style.description} center="xs">
-        <code>React(CSS-Modules(flexboxgrid.css));</code>
+        <code>React(CSS-Modules(flexboxgrid2.css));</code>
       </Row>
       <Row center="xs">
-        <Button url="https://github.com/noentiger/react-app-flexbox-grid">Github</Button>
+        <Button url="https://github.com/roylee0704/react-flexbox-grid">Github</Button>
       </Row>
     </header>
   );

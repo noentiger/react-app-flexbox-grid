@@ -1,4 +1,4 @@
-const webpackConfig = require('./webpack.config.test');
+const webpackConfig = require('./webpack.config');
 
 module.exports = function karmaConfig(config) {
   config.set({
@@ -15,6 +15,11 @@ module.exports = function karmaConfig(config) {
     webpack: webpackConfig,
     webpackServer: {
       noInfo: true
-    }
+    },
+    plugins: [
+      'karma-webpack',
+      'karma-phantomjs-launcher',
+      'karma-mocha'
+    ]
   });
 };

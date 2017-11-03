@@ -1,12 +1,12 @@
-// Type definitions for react-app-flexbox-grid v0.10.2
-// Project: https://github.com/noentiger/react-app-flexbox-grid
+// Type definitions for react-flexbox-grid v0.10.2
+// Project: https://github.com/roylee0704/react-flexbox-grid
 // Definitions by: Ruslan Ibragimov <https://github.com/IRus>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 import {Component} from 'react';
 
 declare namespace __ReactFlexboxGrid {
-  type ViewportSizeType = 'xs' | 'sm' | 'md' | 'lg';
+  type ViewportSizeType = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   type ColumnSizeType = number | boolean;
 
   export interface GridProps {
@@ -34,10 +34,12 @@ declare namespace __ReactFlexboxGrid {
     readonly sm?: ColumnSizeType,
     readonly md?: ColumnSizeType,
     readonly lg?: ColumnSizeType,
+    readonly xl?: ColumnSizeType,
     readonly xsOffset?: number,
     readonly smOffset?: number,
     readonly mdOffset?: number,
     readonly lgOffset?: number,
+    readonly xlOffset?: number,
     readonly first?: ViewportSizeType,
     readonly last?: ViewportSizeType,
     readonly className?: string,
